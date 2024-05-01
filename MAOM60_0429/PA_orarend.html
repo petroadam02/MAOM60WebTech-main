@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>PA-Orarend</title>
+</head>
+<body>
+    <h3>jQuery - AJAX feladat</h3>
+    <h4>Kattintson az Adatok betöltése gombra!</h4>
+
+    <div id ="stg" style = "background-color: white; width: 350px;"> TERÜLET
+    </div>
+
+    <button id="RDjson">Katt!</button>
+
+    <script>
+        $(document).ready(function(){
+            $("#RDjson").click(function(){
+            });
+
+            $.getJSON('PA_orarend.json', function(data){
+                $('#stg').html('<h2>MISKOLCI EGYETEM</h2>');
+
+                $('#stg').append('<p><b>Cim: </b>'+ data.cim.code + ' '+
+                    data.cim.city + ' ' + data.cim.street + ' ' + data.cim.city+ ' '+data.cim.code)
+            });
+        });
+    </script>
+</body>
+</html>

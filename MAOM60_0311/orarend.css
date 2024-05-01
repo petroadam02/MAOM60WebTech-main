@@ -1,0 +1,30 @@
+.orarend1, td{
+    word-wrap: break-word;
+    
+} 
+.elso-elso{
+    height: 30px;
+    width: 40px;
+
+}
+.elso-30{
+    height: 30px;
+    width: 100px;
+}
+
+
+td{
+    height: 70px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    border: none;
+}
+.orarend1{
+    background-color: gray;
+}
+.tabla{
+    background-color: wheat;
+    text-align: center;
+}

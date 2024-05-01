@@ -1,0 +1,10 @@
+.doboz {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid yellowgreen;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}

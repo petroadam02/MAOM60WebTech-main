@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaszon</title>
+</head>
+
+<body>
+    <header id="fejlec" class="fejlec">
+       <h2>Rajzolás a vászonra MAOM60</h2>
+    </header>
+
+    <section id="tartalom">
+        <canvas id="PACanvas" width="700" height="350" style="border: 1px solid #000000;">
+            <img id="kep" style="width: 70px; height: 70px;" src="kepek/iit.jpg" alt="Miskolci iit">
+        </canvas>
+    </section>
+    <style>
+        #lablec {
+            width: 580px;
+        }
+    </style>
+
+    <footer id="lablec" class="lablec">
+        <hr>
+        <h3>Források:</h3>
+        <a href="https://www.w3schools.com/html/html5_canvas.asp">https://www.w3schools.com/html/html5_canvas.asp</a>
+
+    </footer>
+
+    <script>
+        window.onload = function () {
+            var pa = document.getElementById("PACanvas");
+            var pax = pa.getContext("2d");
+
+            pax.lineWidth = 5;
+            pax.strokeStyle = "#0066ff";
+            pax.strokeRect(80, 180, 200, 120);
+
+            var gradient = pax.createRadialGradient(175, 87, 10, 200, 100, 75);
+
+            gradient.addColorStop("0", "#ffcc00");
+            gradient.addColorStop("0.3", "#6600ff");
+            gradient.addColorStop("1.0", "#33ff33");
+
+            pax.fillStyle = gradient;
+            pax.fillRect(100, 60, 150, 75);
+
+
+            var c = document.getElementById("PACanvas");
+            var pax = c.getContext("2d");
+            pax.beginPath();
+            pax.arc(450, 150, 65, 0.3 * Math.PI, 1.5 * Math.PI);
+            pax.lineWidth = 7;
+            pax.strokeStyle = "6633ff";
+
+            pax.stroke();
+
+            pax.fillStyle = "#ffcc33";
+            pax.fill();
+
+            pax.font = "30px Arial";
+            pax.fillText("Mérnökinformatika 2024", 160, 30);
+
+            var canvas = document.getElementById("PACanvas");
+            var ctx = canvas.getContext("2d");
+            var img = document.getElementById("kep");
+            var sourceX = 387;
+            var sourceY = 271;
+            var sourceWidth = 1280;
+            var sourceHeight = 960;
+
+            ctx.drawImage(img, sourceX, sourceY, sourceWidth, sourceHeight, 550, 200, sourceWidth, sourceHeight);
+        }
+
+    </script>
+</body>
+
+</html>

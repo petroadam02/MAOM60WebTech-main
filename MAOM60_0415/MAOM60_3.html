@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery feladatok 3</title>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="MAOM60_3.js"></script>
+
+    <style>
+        table td {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .inputField {
+            border: 1px solid black;
+        }
+
+        .inputField:hover {
+            border-color: greenyellow;
+        }
+
+        .inputField.active {
+            background-color: yellowgreen;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="fejlec">jQuery feladatok</h1>
+    </header>
+
+    <p id="elso">A jQuery egy JavaScript programozói könyvtár, amelyet John Resig kezdett fejleszteni. <label
+            id="katIdeLabel"><b>Kattints ide</b>, és eltűnik</label></p>
+    <p id="masodik">Elterjedtnek tekinthető, segítségével könnyen bejárható egy HTML oldal DOM-ja. <label
+            id="katIdeLabel2"><b>Kattints ide duplán</b> és eltűnik</label></p>
+
+    <form action="urlap">
+        <label for="nev"> <b> Név:</b></label>
+        <input id="inputField" type="text" class="inputField"> <br><br>
+        <label for="email"><b>E-mail:</b></label>
+        <input id="inputField" type="text" class="inputField"> <br> <br>
+        <label for="jelszo"><b>Jelszó:</b></label>
+        <input id="inputField" type="text" class="inputField"> <br> <br>
+    </form>
+    <button id="jelentkezes">Jelentkezés</button>
+</body>
+
+</html>

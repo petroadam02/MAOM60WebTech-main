@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videó Lejátszása_MAOM60</title>
+    <style>
+        header,
+        footer {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px;
+            text-align: left;
+        }
+
+        video {
+            width: 100%;
+            width: 600px;
+        }
+
+        .labjegyzet {
+            width: 600px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Videó Lejátszása_MAOM60</h1>
+    </header>
+
+    <video id="videoPlayer" controls>
+        <source src="MAOM60_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div>
+        <button onclick="start()">Indítás</button>
+        <button onclick="stop()">Leállítás</button> &nbsp;&nbsp;&nbsp;
+        <button onclick="togglePlayPause()">Indítás / Leállítás</button>
+        <br><br>
+        <button onclick="mute()">Néma</button>
+        <button onclick="decreaseVolume()">Halk</button>
+        <button onclick="increaseVolume()">Hangos</button>
+        &nbsp;&nbsp;&nbsp;
+        <button onclick="changeSpeed('verySlow')">Nagyon Lassú</button>
+        <button onclick="changeSpeed('slow')">Lassú</button>
+        <button onclick="changeSpeed('normal')">Normál</button>
+        <button onclick="changeSpeed('fast')">Gyorsabb</button>
+        <button onclick="changeSpeed('veryFast')">Nagyon Gyors</button>
+        <br><br>
+        <button onclick="changeSize('small')">Kicsi</button>
+        <button onclick="changeSize('normal')">Normál</button>
+        <button onclick="changeSize('large')">Nagy</button>
+        &nbsp;&nbsp;&nbsp;
+        <button onclick="checkVideoStatus()">Befejeződött-e</button>
+        <button onclick="getVideoLength()">Video Hossza (mp)</button>
+        <button onclick="getCurrentPosition()">Jelenlegi Pozíció</button>
+    </div>
+
+    <div class="labjegyzet">
+        <hr>
+        <p>Forrás:  <a target="_blank"
+            href="https://www.w3schools.com/html/html5_video.asp">https://www.w3schools.com/html/html5_video.asp</a></p>
+    </div>
+
+    <script>
+        const video = document.getElementById('videoPlayer');
+
+        function start() {
+            video.play();
+        }
+
+        function stop() {
+            video.pause();
+        }
+
+        function togglePlayPause() {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+        function mute() {
+            video.muted = !video.muted;
+        }
+
+        function decreaseVolume() {
+            if (video.volume > 0) {
+                video.volume -= 0.5;
+            }
+        }
+
+        function increaseVolume() {
+            if (video.volume < 1) {
+                video.volume += 0.5;
+            }
+        }
+
+        function changeSpeed(speed) {
+            switch (speed) {
+                case 'verySlow':
+                    video.playbackRate = 0.25;
+                    break;
+                case 'slow':
+                    video.playbackRate = 0.5;
+                    break;
+                case 'normal':
+                    video.playbackRate = 1;
+                    break;
+                case 'fast':
+                    video.playbackRate = 1.5;
+                    break;
+                case 'veryFast':
+                    video.playbackRate = 2;
+                    break;
+                default:
+                    video.playbackRate = 1;
+            }
+        }
+
+        function changeSize(size) {
+            switch (size) {
+                case 'small':
+                    video.style.width = '300px';
+                    break;
+                case 'normal':
+                    video.style.width = '600px';
+                    break;
+                case 'large':
+                    video.style.width = '800px';
+                    break;
+            }
+        }
+
+        function checkVideoStatus() {
+            alert(video.ended ? 'A videó befejeződött.' : 'A videó még nem fejeződött be.');
+        }
+
+        function getVideoLength() {
+            alert('A videó hossza: ' + Math.floor(video.duration) + ' másodperc.');
+        }
+
+        function getCurrentPosition() {
+            alert('A jelenlegi pozíció: ' + Math.floor(video.currentTime) + ' másodperc.');
+        }
+    </script>
+</body>
+
+</html>

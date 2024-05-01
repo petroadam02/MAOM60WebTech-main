@@ -1,0 +1,32 @@
+{"PA_orarend": {
+    "kurzusok": [
+        {
+            "kurzusnev": "Webtech",
+            "idopont": {
+                "nap": "Hétfő",
+                "tol": 8,
+                "ig": 10
+            },
+            "helyszin": "X.",
+            "oktato": " Dr. Agárdi Antia",
+            "szak": "MI",
+            "cim":{
+                "streat": "Egyetemváros",
+                "city": "Miskolc",
+                "code": 1021
+            },
+            "phone number":
+            [
+                {
+                    "type": "Vezetékes:",
+                    "number": "0646 332-656"
+                },
+                {
+                    "type": "Mobil",
+                    "number": "0670 440-8831"
+                }
+            ]
+        }
+    ]
+}
+}
