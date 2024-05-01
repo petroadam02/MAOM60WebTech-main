@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav {
@@ -84,12 +84,59 @@ nav {
 }
 
 .quote-bar {
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: #201e1ecb;
+    padding: 30px;
     text-align: center;
 }
 
 .quote-text {
-    font-size: 20px;
-    color: #333;
+    font-size: 30px;
+    color: #099453;
+    text-align: center;
+    margin-top: -47px;
+}
+
+.teteje {
+    background-image: url("img/kondis_no2.webp"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* A háttérkép ne ismétlődjön meg */
+    height: 860px;
+}
+
+.teteje-text{
+    background-color: #099453a2;
+    margin-right: 1140px;
+    font-style: italic;
+    background-clip: padding-box;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 60px;
+    margin-top: 200px;
+    color: white;
+}
+
+.gomb1{
+    text-align: center;
+    padding-top: 140px;
+}
+
+#scrollButton {
+    background-color: #099453;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Kerekített sarkok */
+    cursor: pointer; /* Mutató kurzor */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Áttűnést a háttérszín változására */
+}
+
+#scrollButton:hover {
+    background-color: #01ff88; /* Háttérszín hover állapotban */
+}
+
+.kontakt{
+    background-color: #201e1e;
+    text-align: center;
 }
