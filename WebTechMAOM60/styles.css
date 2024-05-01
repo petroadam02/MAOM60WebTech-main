@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #201e1e;
     overflow: hidden;
     padding: 25px 0; /* Magasság növelése */
 }
@@ -14,15 +14,26 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .logo a {
     color: white;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 32px;
+    transition: color 0.2s;
 }
+.logo a.active{
+    color: #099453;
+    border-top: 3px solid #099453;
+    padding-top: 20px;
+}
+
+.logo a:hover {
+    color: #099453;
+}
+
 
 .menu {
     list-style-type: none;
@@ -40,10 +51,11 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 .menu li a.active {
+    color:#099453;
     border-top: 3px solid #099453;
     padding-top: 25px;
 }
@@ -64,4 +76,20 @@ nav {
     bottom: -10px;
     left: 10px;
     display: none;
+}
+
+.bottom-line {
+    height: 5px;
+    background-color: #099453;
+}
+
+.quote-bar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 20px;
+    color: #333;
 }
