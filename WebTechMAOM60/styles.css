@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 25px 0; /* Magasság növelése */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 30px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.menu li a.active {
+    border-top: 3px solid #099453;
+    padding-top: 25px;
+}
+
+.menu li a:hover {
+    color: #099453;
+}
+
+.menu li a:hover + .highlight, .menu li a.active + .highlight {
+    display: block;
+}
+
+.highlight {
+    position: absolute;
+    background-color: #099453;
+    height: 3px;
+    width: calc(100% - 20px);
+    bottom: -10px;
+    left: 10px;
+    display: none;
+}
