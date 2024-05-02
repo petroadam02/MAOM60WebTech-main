@@ -179,3 +179,31 @@ nav {
     opacity: 1;
     transform: translateX(0);
 }
+
+.about{
+    text-align:center;
+}
+
+.cim{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-controls {
+    display: flex;
+    align-items: center;
+}
+
+video {
+    width: 50%; /* A videó szélességének beállítása */
+    max-width: 70%; /* Maximális szélesség korlátozása */
+    height: auto; /* Automatikus magasság beállítása */
+    margin: 0 auto; /* Középre igazítás */
+    display: block; /* Blokk elemként való kezelés */
+}
