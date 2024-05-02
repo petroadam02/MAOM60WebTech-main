@@ -182,6 +182,12 @@ nav {
 
 .about{
     text-align:center;
+    background-image:url(img/kondi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* A háttérkép ne ismétlődjön meg */
+    height: 600px;
+    
 }
 
 .cim{
@@ -189,21 +195,46 @@ nav {
     font-style: italic;
 }
 
-.video-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.video-container{
+    justify-content:center;
+}
+
+video {
+    max-width: 70%;
+    height: auto; 
 }
 
 .video-controls {
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
-video {
-    width: 50%; /* A videó szélességének beállítása */
-    max-width: 70%; /* Maximális szélesség korlátozása */
-    height: auto; /* Automatikus magasság beállítása */
-    margin: 0 auto; /* Középre igazítás */
-    display: block; /* Blokk elemként való kezelés */
+.video-controls button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #099453;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.video-controls button:hover {
+    background-color: #01ff88;
+}
+
+#volumeRange {
+    width: 100%;
+}
+
+.about-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.table2 {
+    max-width: 80%;
+    text-align: center;
 }
