@@ -104,7 +104,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     height: 875px;
-    
+
     animation: slideIn 1s ease forwards;
 }
 
@@ -225,4 +225,13 @@ button {
 
 button:hover {
     background-color: #bde608;
+}
+
+
+
+#google-map{
+    width: auto;
+    height: 600px;
+    align-self: center;
+    margin: 0 auto;
 }
