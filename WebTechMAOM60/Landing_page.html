@@ -47,55 +47,66 @@
     <section class="kontakt">
         <table class="table1 slide-in">
             <tr>
-                    <td><img class=kontaktok src="img/location.png" alt="Hely"></td>
-                    <td>Egyetemváros</td>
+                <td><img class=kontaktok src="img/location.png" alt="Hely"></td>
+                <td>Egyetemváros</td>
 
-                    <td><img class=kontaktok src="img/phone.png" alt="Telefon"></td>
-                    <td>0646/123-123</td>
+                <td><img class=kontaktok src="img/phone.png" alt="Telefon"></td>
+                <td>0646/123-123</td>
 
-                    <td><img class=kontaktok src="img/mail.png" alt="E-Mail"></td>
-                    <td>fiktivgym@gmail.com</td>
+                <td><img class=kontaktok src="img/mail.png" alt="E-Mail"></td>
+                <td>fiktivgym@gmail.com</td>
             </tr>
         </table>
     </section>
- 
+
     <div class="bottom-line"></div>
 
     <section class="about slide-in">
-        <div class="cim">
-            <h1>Rólunk</h1>
-        </div>
-        <div class="video-container">
+        <div class="sarga-teglalap">
             <table class="table2">
                 <tr>
+                    <td style="font-style: italic; font-size: 40px; color:white">
+                        <p>Rólunk</p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
-                        <div class="video-controls">
-                            <button id="playPauseBtn">Lejátszás</button>
-                            <button id="muteBtn">Némítás</button>
-                        </div>
-                        <input id="volumeRange" type="range" min="0" max="100" value="100">
+                        <button onclick="playVideo()">Indít</button> <br><br>
+                        <button onclick="pauseVideo()">Megállít</button> <br><br>
+                        <button onclick="volumeDown()">Halkabb</button> <br><br>
+                        <button onclick="volumeUp()">Hangosabb</button> <br><br>
                     </td>
                     <td>
-                        <video id="myVideo" controls>
+                        <video id="myVideo" width="700" height="auto" controls>
                             <source src="img/gym-prom-video.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
+                            A böngésződ nem támogatja a video elemet.
                         </video>
                     </td>
-                    <td class="about-text">
-                        <p>Egy konditerem, 2200 négyzetméteren, profi gépekkel és eszközökkel. <br>
-                             Egy hely, ahol mindenkinek egy célja van, közösségként, egymást  <br>
-                             támogatva fizikailag és lelkileg erősödni, fejlődni.           <br>
-                            Egy közösség, ahol minden korosztály élvezheti a mozgás örömét, <br>
-                            ahol az egészség a középpontba kerül, ahonnan bármikor erőt <br>
-                            meríthetsza mindennapok forgatagában. Eredményes edzést és <br>
-                            kellemes időtöltést kívánunk mindenkinek.</p>
+                    <td>
+                        <p style="font-size: 25px;color: white; font-style: italic;margin-left: 30px;">
+                            Egy konditerem, 2200 négyzetméteren, <br>
+                            profi gépekkel és eszközökkel.Egy hely, <br>
+                            ahol mindenkinek egy célja van, <br>
+                            közösségként, egymást támogatva <br>
+                            fizikailag és lelkileg erősödni, <br>
+                            fejlődni. Egy közösség, ahol minden <br>
+                            korosztály élvezheti a mozgás örömét, <br>
+                            ahol az egészség a középpontba kerül, <br>
+                            ahonnan bármikor erőt meríthetsz a <br>
+                            mindennapok forgatagában.
+                        </p>
                     </td>
                 </tr>
             </table>
         </div>
+
+    </section>
+    <div class="bottom-line"></div>
+    <section>
+
+
     </section>
 
-    
 
     <div class="bottom-line"></div>
     <script src="jquery-3.7.1.js"></script>

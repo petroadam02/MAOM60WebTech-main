@@ -1,30 +1,23 @@
-document.addEventListener("DOMContentLoaded", function() {
+function playVideo() {
     var video = document.getElementById("myVideo");
-    var playPauseBtn = document.getElementById("playPauseBtn");
-    var muteBtn = document.getElementById("muteBtn");
-    var volumeRange = document.getElementById("volumeRange");
+    video.play();
+}
 
-    playPauseBtn.addEventListener("click", function() {
-        if (video.paused) {
-            video.play();
-            playPauseBtn.innerHTML = "Megállítás";
-        } else {
-            video.pause();
-            playPauseBtn.innerHTML = "Lejátszás";
-        }
-    });
+function pauseVideo() {
+    var video = document.getElementById("myVideo");
+    video.pause();
+}
 
-    muteBtn.addEventListener("click", function() {
-        if (video.muted) {
-            video.muted = false;
-            muteBtn.innerHTML = "Némítás";
-        } else {
-            video.muted = true;
-            muteBtn.innerHTML = "Hang bekapcsolása";
-        }
-    });
+function volumeDown() {
+    var video = document.getElementById("myVideo");
+    if (video.volume >= 0.1) {
+        video.volume -= 0.1;
+    }
+}
 
-    volumeRange.addEventListener("input", function() {
-        video.volume = volumeRange.value / 100;
-    });
-});
+function volumeUp() {
+    var video = document.getElementById("myVideo");
+    if (video.volume <= 0.9) {
+        video.volume += 0.1;
+    }
+}

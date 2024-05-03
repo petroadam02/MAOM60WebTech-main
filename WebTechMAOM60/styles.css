@@ -6,7 +6,7 @@ body {
 nav {
     background-color: #201e1e;
     overflow: hidden;
-    padding: 25px 0; /* Magasság növelése */
+    padding: 25px 0;
 }
 
 .container {
@@ -24,14 +24,15 @@ nav {
     font-size: 32px;
     transition: color 0.2s;
 }
-.logo a.active{
-    color: #099453;
-    border-top: 3px solid #099453;
+
+.logo a.active {
+    color: #bde608;
+    border-top: 3px solid #bde608;
     padding-top: 20px;
 }
 
 .logo a:hover {
-    color: #099453;
+    color: #bde608;
 }
 
 
@@ -55,22 +56,23 @@ nav {
 }
 
 .menu li a.active {
-    color:#099453;
-    border-top: 3px solid #099453;
+    color: #bde608;
+    border-top: 3px solid #bde608;
     padding-top: 25px;
 }
 
 .menu li a:hover {
-    color: #099453;
+    color: #bde608;
 }
 
-.menu li a:hover + .highlight, .menu li a.active + .highlight {
+.menu li a:hover+.highlight,
+.menu li a.active+.highlight {
     display: block;
 }
 
 .highlight {
     position: absolute;
-    background-color: #099453;
+    background-color: #bde608;
     height: 3px;
     width: calc(100% - 20px);
     bottom: -10px;
@@ -80,7 +82,7 @@ nav {
 
 .bottom-line {
     height: 4px;
-    background-color: #099453;
+    background-color: #bde608;
 }
 
 .quote-bar {
@@ -91,17 +93,18 @@ nav {
 
 .quote-text {
     font-size: 30px;
-    color: #099453;
+    color: #bde608;
     text-align: center;
     margin-top: -47px;
 }
 
 .teteje {
-    background-image: url("img/kondis_no2.webp"); 
+    background-image: url("img/kondis_no4.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* A háttérkép ne ismétlődjön meg */
+    background-repeat: no-repeat;
     height: 875px;
+    
     animation: slideIn 1s ease forwards;
 }
 
@@ -110,14 +113,15 @@ nav {
         transform: translateY(-10px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-.teteje-text{
-    background-color: #099453a2;
+.teteje-text {
+    background-color: #bde608a2;
     margin-right: 1140px;
     font-style: italic;
     background-clip: padding-box;
@@ -128,33 +132,37 @@ nav {
     color: white;
 }
 
-.gomb1{
+.gomb1 {
     text-align: center;
     padding-top: 140px;
 }
 
 #scrollButton {
-    background-color: #099453;
+    background-color: #6b8300;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px; /* Kerekített sarkok */
-    cursor: pointer; /* Mutató kurzor */
+    border-radius: 5px;
+    /* Kerekített sarkok */
+    cursor: pointer;
+    /* Mutató kurzor */
     font-size: 16px;
-    transition: background-color 0.3s; /* Áttűnést a háttérszín változására */
+    transition: background-color 0.2s;
 }
 
 #scrollButton:hover {
-    background-color: #01ff88; /* Háttérszín hover állapotban */
+    background-color: #bde608;
+    /* Háttérszín hover állapotban */
 }
 
-.kontakt{
+.kontakt {
     background-image: url(img/sulyok.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #423f3f;
     padding: 50px;
+    color: white;
 }
 
 .table1 {
@@ -164,7 +172,7 @@ nav {
     font-size: 30px;
 }
 
-.kontaktok{
+.kontaktok {
     width: 80px;
     height: auto;
 }
@@ -180,61 +188,41 @@ nav {
     transform: translateX(0);
 }
 
-.about{
-    text-align:center;
-    background-image:url(img/kondi.jpg);
+
+.about {
+    background-image: url(img/kondi.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* A háttérkép ne ismétlődjön meg */
-    height: 600px;
-    
-}
-
-.cim{
-    font-size: 30px;
-    font-style: italic;
-}
-
-.video-container{
-    justify-content:center;
-}
-
-video {
-    max-width: 70%;
-    height: auto; 
-}
-
-.video-controls {
+    background-repeat: no-repeat;
+    height: 800px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.video-controls button {
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #099453;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.2s ease;
-}
-
-.video-controls button:hover {
-    background-color: #01ff88;
-}
-
-#volumeRange {
-    width: 100%;
-}
-
-.about-text {
-    font-size: 20px;
-    text-align: justify;
+.sarga-teglalap {
+    width: 1300px;
+    height: 600px;
+    background-color: #485800a8;
+    justify-content: center;
 }
 
 .table2 {
-    max-width: 80%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #6b8300;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #bde608;
 }
