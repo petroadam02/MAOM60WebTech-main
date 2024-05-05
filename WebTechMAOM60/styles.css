@@ -235,7 +235,7 @@ button:hover {
     margin: 0 auto;
 }
 
-.alja{
+.mail-container{
 
     background-image: url(img/kondi3.jpg);
     background-size: cover;
@@ -245,13 +245,4 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-
-input, textarea {
-    background-color: #ffffff; /* Beviteli mezők háttérszíne */
-    color: rgb(0, 0, 0); /* Beviteli mezők szövegszíne */
-    font-size: 18px; /* Nagyobb betűméret */
-    padding: 6px; /* Nagyobb belső térköz */
 }
