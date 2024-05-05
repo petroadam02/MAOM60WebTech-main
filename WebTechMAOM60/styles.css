@@ -236,13 +236,28 @@ button:hover {
 }
 
 .mail-container{
-
     background-image: url(img/kondi3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.from-group{
+    font-size: 20px;
+    color: #bde608;
+}
+
+.contact-area{
+    width: 500px;
+    height: 30px;
+}
+
+.text-area{
+    width: 500px;
+    height: 60px;
+
 }
