@@ -1,0 +1,27 @@
+[
+    {
+      "azonosito": 1,
+      "nev": "Peppa",
+      "kor": 35,
+      "specializacio": "Fitness, Súlyemelés",
+      "tapasztalat_ev": 10,
+      "kep":"img/peppa.jpg"
+    },
+    {
+      "azonosito": 2,
+      "nev": "Patrik",
+      "kor": 28,
+      "specializacio": "Jóga, Pilates",
+      "tapasztalat_ev": 8,
+      "kep":"img/patrik.jpg"
+    },
+    {
+      "azonosito": 3,
+      "nev": "Jake the Dog",
+      "kor": 40,
+      "specializacio": "Kardio, Súlyemelés",
+      "tapasztalat_ev": 15,
+      "kep":"img/jake.jpg"
+    }
+  ]
+  
