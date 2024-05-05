@@ -41,6 +41,7 @@ nav {
     margin: 0;
     padding: 0;
     position: relative;
+    margin-right: 140px;
 }
 
 .menu li {
@@ -260,4 +261,21 @@ button:hover {
     width: 500px;
     height: 60px;
 
+}
+
+.open{
+    background-image: url(img/kondi4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #201e1e;
+    color: white;
+    margin-top: -40px;
 }

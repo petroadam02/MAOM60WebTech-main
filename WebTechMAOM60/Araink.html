@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav>
         <div class="container">
@@ -14,17 +16,60 @@
                 <a href="Landing_page.html">UNI-GYM</a>
             </div>
             <ul class="menu">
+                <li><a href="Landing_page.html">Home</a> </li>
                 <li><a href="Edzok.html">Edzők</a></li>
                 <li><a href="#" class="active">Áraink</a></li>
-                <li><a href="Shop.html">Gym-shop</a></li>
-                <li><a href="Orarend.html">Órarend</a></li>
                 <div class="highlight"></div>
             </ul>
         </div>
     </nav>
     <div class="bottom-line"></div>
 
+    <section id="contact" class="mail-container">
+        <form>
+            <p style="font-size: 50px; color: #bde608; margin-left: 150px;">Kapcsolat</p>
+            <div class="from-group">
+                <label for="name">Név</label><br>
+                <input class="contact-area" type="text" id="name" name="name" required>
+            </div>
+            <div class="from-group">
+                <br><label for="email">Email</label><br>
+                <input class="contact-area" type="email" id="email" name="email" required>
+            </div>
+            <div class="from-group">
+                <br><label for="subject">Tárgy</label><br>
+                <input class="contact-area" type="text" id="subject" name="subject" required>
+            </div>
+            <div class="from-group">
+                <br><label for="message">Üzenet</label><br>
+                <textarea class="text-area" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" onclick="sendMail()">Üzenet küldése</button>
+        </form>
+    </section>
 
+    <footer>
+        <div class="footer-content">
+            <div style="text-align: center;">
+                <h3>Impresszum &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Etikai kódex
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Süti beállítások
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adatkezelési tájékoztató
+                </h3>
+                <h4>Szabályzatok&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ÁSZF
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sütitájékoztató
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Átláthatóság
+                </h4>
+            </div>
+        </div>
+        <div class="footer-bottom"style="text-align:center;">
+            &copy; 2024 UNI-GYM | Minden jog fenntartva.
+        </div>
+    </footer>
+
+
+    <script src="edzok.js"></script>
     <script src="jquery-3.7.1.js"></script>
 </body>
+
+
 </html>
