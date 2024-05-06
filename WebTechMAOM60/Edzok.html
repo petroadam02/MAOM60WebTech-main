@@ -8,36 +8,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles.css">
     <script src="jquery-3.7.1.js"></script>
+    
 
 </head>
-<style>
-    table {
-        border-collapse: collapse;
-        width: 100%;
-        
-    }
-
-    table,
-    th,
-    td {
-        border: 1px solid black;
-    }
-
-    .sex{
-        width:100px;
-        height: 100px;
-    }
-
-    th,
-    td {
-        padding: 8px;
-        text-align: left;
-    }
-
-    th {
-        background-color: #f2f2f2;
-    }
-</style>
 
 <body>
     <nav>
@@ -55,25 +28,35 @@
     </nav>
     <div class="bottom-line"></div>
 
-    <section>
+    <section class="table4sec">
 
-        <table id="edzokTabla" border="1">
-            <thead>
-                <tr>
-                    <th>Azonosító</th>
-                    <th>Név</th>
-                    <th>Kor</th>
-                    <th>Specializáció</th>
-                    <th>Tapasztalat</th>
-                    <th class="sex">Kép</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Itt jelenik meg az edzők adatai AJAX hívás után -->
-            </tbody>
+        <table class="table4">    
+            <tr>
+                <td>
+                    <a href="peppa.html">
+                        <img src="img/peppa.jpg" alt="Peppa" style="max-height: 350px; width: auto; padding: 40px;">
+                    </a>
+                </td>
+                <td>
+                    <a href="jake.html">
+                        <img src="img/jake.jpg" alt="Jake" style="height: 350px; width: auto; padding: 40px;">
+                    </a>
+                </td>
+                <td>
+                    <a href="patrik.html">
+                        <img src="img/patrik.jpg" alt="Patrik" style="height: 350px; width: auto; padding: 40px;">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Peppa</td>
+                <td>Jake the Dog</td>
+                <td>Patrik</td>
+            </tr>
         </table>
         <script src="edzok.js"></script>
     </section>
+
 
     <div class="bottom-line"></div>
 
