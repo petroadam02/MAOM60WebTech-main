@@ -1,12 +1,15 @@
 $(document).ready(function(){
-    $.ajax({
+  $.ajax({
       url: 'jake.json',
       dataType: 'json',
-      success: function(data) {
-        $('#nev').text(data.nev);
-        $('#kor').text(data.kor);
-        $('#spec').text(data.spec);
-        $('#tapasztalat').text(data.tapasztalat);
+      success: function(data){
+          var table = $('#peppaTable tbody');
+          $.each(data, function(index, item){
+              table.append('<tr><td>' + item.nev + '</td><td>' + item.kor + '</td><td>' + item.spec + '</td><td>' + item.tapasztalat + " év"+ '</td></tr>');
+          });
+      },
+      error: function(){
+          alert('Hiba a JSON fájl betöltése közben.');
       }
-    });
   });
+});

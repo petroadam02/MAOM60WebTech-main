@@ -1,16 +1,15 @@
 $(document).ready(function(){
     $.ajax({
-      url: 'peppa.json',
-      dataType: 'json',
-      success: function(data){
-        $.each(data, function(i, edzo){
-          var row = $('<tr>');
-          row.append($('<td>').text(edzo.nev));
-          row.append($('<td>').text(edzo.kor));
-          row.append($('<td>').text(edzo.spec));
-          row.append($('<td>').text(edzo.tapasztalat));
-          $('#edzokTabla tbody').append(row);
-        });
-      }
+        url: 'peppa.json',
+        dataType: 'json',
+        success: function(data){
+            var table = $('#peppaTable tbody');
+            $.each(data, function(index, item){
+                table.append('<tr><td>' + item.nev + '</td><td>' + item.kor + '</td><td>' + item.spec + '</td><td>' + item.tapasztalat + " év" + '</td></tr>');
+            });
+        },
+        error: function(){
+            alert('Hiba a JSON fájl betöltése közben.');
+        }
     });
-  });
+});
