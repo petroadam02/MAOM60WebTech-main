@@ -304,3 +304,16 @@ footer{
 .table4 img:hover {
     filter: hue-rotate(90deg);
 }
+
+.araink-hatter{
+
+    align-items: center;background-image: url(img/kondi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
