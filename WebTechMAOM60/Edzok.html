@@ -7,26 +7,37 @@
     <title>Edzok</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.7.1.js"></script>
 
-    <style>
-        /* Stílusok */
-        table {
-            border-collapse: collapse;
-        }
-
-        table,
-        td {
-            border: none;
-            padding: 8px;
-            text-align: center;
-        }
-
-        img {
-            max-width: 100px;
-            max-height: 100px;
-        }
-    </style>
 </head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    .sex{
+        width:100px;
+        height: 100px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
 
 <body>
     <nav>
@@ -42,36 +53,26 @@
             </ul>
         </div>
     </nav>
-    <div class="bottom-line"></div><div class="bottom-line"></div>
+    <div class="bottom-line"></div>
 
-
-    <h1>Edzők</h1>
-
-    <!-- Táblázat helye -->
-    <table id="edzok-table">
-        <!-- A táblázat tartalma dinamikusan generálódik JavaScript segítségével -->
-    </table> <!-- Javascript fájl betöltése -->
     <section>
 
-
-        <table class="table3">
-            <tr>
-                <td style="font-style: italic; font-size: 40px; color:white">
-                    <p>Rólunk</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                </td>
-                <td>
-
-                </td>
-                <td>
-
-                </td>
-            </tr>
+        <table id="edzokTabla" border="1">
+            <thead>
+                <tr>
+                    <th>Azonosító</th>
+                    <th>Név</th>
+                    <th>Kor</th>
+                    <th>Specializáció</th>
+                    <th>Tapasztalat</th>
+                    <th class="sex">Kép</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Itt jelenik meg az edzők adatai AJAX hívás után -->
+            </tbody>
         </table>
+        <script src="edzok.js"></script>
     </section>
 
     <div class="bottom-line"></div>
@@ -85,11 +86,11 @@
             </div>
             <div class="from-group">
                 <br><label for="email">Email</label><br>
-                <input class="contact-area"  type="email" id="email" name="email" required>
+                <input class="contact-area" type="email" id="email" name="email" required>
             </div>
             <div class="from-group">
                 <br><label for="subject">Tárgy</label><br>
-                <input class="contact-area"  type="text" id="subject" name="subject" required>
+                <input class="contact-area" type="text" id="subject" name="subject" required>
             </div>
             <div class="from-group">
                 <br><label for="message">Üzenet</label><br>
@@ -112,14 +113,10 @@
                 </h4>
             </div>
         </div>
-        <div class="footer-bottom"style="text-align:center;">
+        <div class="footer-bottom" style="text-align:center;">
             &copy; 2024 UNI-GYM | Minden jog fenntartva.
         </div>
     </footer>
-
-
-    <script src="edzok.js"></script>
-    <script src="jquery-3.7.1.js"></script>
 </body>
 
 </html>

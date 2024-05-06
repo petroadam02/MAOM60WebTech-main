@@ -6,5 +6,12 @@ function sendMail(){
         message : document.getElementById('message').value
     }
 
-    emailjs.send("service_lg1oysr","template_18fvvwy",parms).then(alert("Az üzenetet elküldtük!"))
+
+    if (name == "" || email == "" || subject == "" || message == "") {
+        alert("Minden mezőt ki kell tölteni!");
+        return false;
+    }
+    else{
+        emailjs.send("service_lg1oysr","template_18fvvwy",parms).then(alert("Az üzenetet elküldtük!"))
+    }
 }
