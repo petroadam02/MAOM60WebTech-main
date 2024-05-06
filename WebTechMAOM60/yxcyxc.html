@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peppa adatai</title>
+    <style>
+        /* Keret nélküli táblázat */
+        table {
+            border-collapse: collapse;
+        }
+
+        /* Címke stílusa */
+        th {
+            text-align: left;
+            padding: 8px;
+        }
+
+        /* Adatok stílusa */
+        td {
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Peppa adatai</h1>
+    <table>
+        <tr>
+            <th>Adattag</th>
+            <th>Érték</th>
+        </tr>
+        <tr>
+            <td>Név</td>
+            <td id="peppaNev"></td>
+        </tr>
+        <tr>
+            <td>Kor</td>
+            <td id="peppaKor"></td>
+        </tr>
+        <tr>
+            <td>Specializáció</td>
+            <td id="peppaSpec"></td>
+        </tr>
+        <tr>
+            <td>Tapasztalat</td>
+            <td id="peppaTapasztalat"></td>
+        </tr>
+    </table>
+
+    <!-- jQuery betöltése -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // Peppa adatainak betöltése és megjelenítése
+        $(document).ready(function(){
+            $.ajax({
+                url: 'adatok.json',
+                dataType: 'json',
+                success: function(data){
+                    var peppa = data.find(function(edzo) {
+                        return edzo.nev === "Peppa";
+                    });
+
+                    $('#peppaNev').text(peppa.nev);
+                    $('#peppaKor').text(peppa.kor);
+                    $('#peppaSpec').text(peppa.spec);
+                    $('#peppaTapasztalat').text(peppa.tapasztalat);
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.log('Hiba történt az adatok beolvasása közben:', textStatus, errorThrown);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
