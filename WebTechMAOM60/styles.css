@@ -38,6 +38,7 @@ nav {
 
 .menu {
     list-style-type: none;
+    color: white;
     margin: 0;
     padding: 0;
     position: relative;
@@ -229,14 +230,14 @@ button:hover {
 
 
 
-#google-map{
+#google-map {
     width: auto;
     height: 600px;
     align-self: center;
     margin: 0 auto;
 }
 
-.mail-container{
+.mail-container {
     background-image: url(img/kondi3.jpg);
     background-size: cover;
     background-position: center;
@@ -247,23 +248,23 @@ button:hover {
     align-items: center;
 }
 
-.from-group{
+.from-group {
     font-size: 20px;
     color: #bde608;
 }
 
-.contact-area{
+.contact-area {
     width: 500px;
     height: 30px;
 }
 
-.text-area{
+.text-area {
     width: 500px;
     height: 60px;
 
 }
 
-.open{
+.open {
     background-image: url(img/kondi4.jpg);
     background-size: cover;
     background-position: center;
@@ -274,14 +275,15 @@ button:hover {
     align-items: center;
 }
 
-footer{
+footer {
     background-color: #201e1e;
     color: white;
     margin-top: -40px;
 }
 
-.table4sec{
-    align-items: center;background-image: url(img/kondi4.jpg);
+.table4sec {
+    align-items: center;
+    background-image: url(img/kondi4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -291,7 +293,7 @@ footer{
     align-items: center;
 }
 
-.table4{
+.table4 {
     text-align: center;
     font-size: 30px;
     color: white;
@@ -305,9 +307,10 @@ footer{
     filter: hue-rotate(90deg);
 }
 
-.araink-hatter{
+.araink-hatter {
 
-    align-items: center;background-image: url(img/kondi.jpg);
+    align-items: center;
+    background-image: url(img/kondi.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -316,4 +319,26 @@ footer{
     justify-content: center;
     align-items: center;
 
+}
+
+
+.tablzatharmas table {
+    width: 60%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.tablzatharmas table th, table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.tablzatharmas table th {
+    background-color: #f2f2f2;
+}
+
+
+.tablzatharmas table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
 }
