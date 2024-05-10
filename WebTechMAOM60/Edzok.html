@@ -7,14 +7,6 @@
     <title>Edzok</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" 
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("zs1mg497t8_CgbfPL");
-        })();
-    </script>
     <script src="jquery-3.7.1.js"></script>
 
 
@@ -72,9 +64,9 @@
 
     </section>
     
-    <div class="bottom-line"></div><div class="bottom-line"></div>
+    <div class="bottom-line"></div>
 
-    <section id="contact" class="mail-container">
+    <section id="contactForm" class="mail-container">
         <form>
             <p style="font-size: 50px; color: #bde608; margin-left: 150px;">Kapcsolat</p>
             <div class="from-group">
@@ -93,7 +85,7 @@
                 <br><label for="message">Üzenet</label><br>
                 <textarea class="text-area" id="message" name="message" rows="4" required></textarea>
             </div>
-            <button type="submit" onclick="sendMail()">Üzenet küldése</button>
+            <button type="submit">Küldés</button>
         </form>
     </section>
 
@@ -114,6 +106,8 @@
             &copy; 2024 UNI-GYM | Minden jog fenntartva.
         </div>
     </footer>
+
+    <script src="mail.js"></script>
 </body>
 
 </html>
