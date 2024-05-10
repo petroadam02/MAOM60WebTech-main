@@ -1,40 +1,33 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
   }
   
-  .container {
-    width: 80%;
+  .container1{
+    width: 60%;
     margin: 20px auto;
   }
   
   h2 {
     text-align: center;
+    background-color: #2f3a009d;
+    margin-left: 800px;
+    margin-right: 800px;
+    
   }
   
   table {
     width: 60%;
     border-collapse: collapse;
-    background-color: #fff;
     margin: 0 auto;
   }
   
   table th, table td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #bde608;
   }
-  
-  table th {
-    background-color: #f2f2f2;
-  }
-  
-  table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-
 
 .image-text-container {
     display: flex;
@@ -50,3 +43,15 @@ body {
     flex: 1;
   }
   
+  .nagyszekcio{
+    background-image: url(img/kondi77.jpg);
+    background-size: cover;
+    height: 500px;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bde608;
+  }

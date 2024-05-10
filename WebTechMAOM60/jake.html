@@ -7,6 +7,13 @@
     <title>jake</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("zs1mg497t8_CgbfPL");
+        })();
+    </script>
     <script src="jquery-3.7.1.js"></script>
     <style>
         /* Keret nélküli táblázat */
@@ -45,27 +52,26 @@
     </nav>
     <div class="bottom-line"></div>
 
-    <section>
-        <h2>Jake a kutya</h2>
+    <section class="nagyszekcio">
+        <section>
+            <h2>Jake a kutya</h2>
 
-        <div class="container">
-            <div class="image-text-container">
-              <img src="img/jake.jpg" alt="Kép" class="image">
-              <p class="text">Sziasztok! Jake vagyok, a legkalandvágyóbb kutya!
-                A Kalandra fel! csapatának részeként, célom az, hogy segítsek neked felfedezni a kalandot a 
-                mindennapokban, miközben egy jó kis edzést is beiktatunk!
-                Specialitásom a "Kalandos Kardió" és a "Csavargó Súlyemelés", 
-                amelyek garantálják az izgalmas kihívásokat és a felejthetetlen élményeket.
-                Gyere, csatlakozz hozzám, és együtt fedezzük fel az élet kalandjait!
-              </p>
+            <div class="container1">
+                <div class="image-text-container">
+                    <img src="img/jake.jpg" alt="Kép" class="image">
+                    <p class="text">Sziasztok! Jake vagyok, a legkalandvágyóbb kutya!
+                        Specialitásom a "Kalandos Kardió" és a "Csavargó Súlyemelés",
+                        amelyek garantálják az izgalmas kihívásokat.
+                        Gyere, csatlakozz hozzám, és együtt fedezzük fel az élet kalandjait!
+                    </p>
+                </div>
             </div>
-          </div>
 
-        <div id="edzokTable"></div>
-        <script src="jake.js"></script>
-        <link rel="stylesheet" type="text/css" href="table.css">
+            <div id="edzokTable"></div>
+            <script src="jake.js"></script>
+            <link rel="stylesheet" type="text/css" href="table.css">
+        </section>
     </section>
-    <br>
 
     <div class="bottom-line"></div>
 

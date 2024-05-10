@@ -321,24 +321,20 @@ footer {
 
 }
 
+.tablzatharmas{
+    background-image: url(img/kondi5.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 .tablzatharmas table {
-    width: 60%;
+    font-size: 40px;
+    color:#bde608;
     border-collapse: collapse;
-    background-color: #fff;
     margin: 0 auto;
-}
-
-.tablzatharmas table th, table td {
-    padding: 8px;
-    text-align: left;
-}
-
-.tablzatharmas table th {
-    background-color: #f2f2f2;
-}
-
-
-.tablzatharmas table tbody tr:nth-child(odd) {
-    background-color: #f2f2f2;
 }
