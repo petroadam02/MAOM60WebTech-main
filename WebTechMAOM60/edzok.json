@@ -1,0 +1,20 @@
+{"edzok":[
+  {
+    "nev": "Peppa",
+    "kor": 35,
+    "spec": "Fitness, Súlyemelés",
+    "tapasztalat": 10
+  },
+  {
+    "nev": "Patrik",
+    "kor": 28,
+    "spec": "Jóga, Pilates",
+    "tapasztalat": 8
+  },
+  {
+    "nev": "Jake a kutya",
+    "kor": 40,
+    "spec": "Kardio, Súlyemelés",
+    "tapasztalat": 15
+  }
+]}
