@@ -10,8 +10,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     if (name && email && subject && message) {
         // Ha minden mező ki van töltve, akkor alertet jelenítünk meg
         alert("Az üzenet elküldve!");
-        // További műveletek, például az űrlap elküldése a szerverre
-        // Itt lehetőség van az AJAX hívások vagy más műveletek végrehajtására
+
     } else {
         // Ha bármelyik mező nincs kitöltve, akkor figyelmeztető üzenetet jelenítünk meg
         alert("Kérlek, töltsd ki az összes mezőt!");
