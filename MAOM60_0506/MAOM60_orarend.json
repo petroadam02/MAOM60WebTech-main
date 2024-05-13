@@ -1,0 +1,164 @@
+{
+    "PA orarend": {
+        "kurzus": [
+            {
+                "kurzusnev": "Webtechnológia alapjai",
+                "idopont": {
+                    "nap": "Hétfő",
+                    "tol": "08:00",
+                    "ig": "10:00"
+                },
+                "helyszin": "X. e. a.",
+                "oktato": " Dr. Agárdi Antia",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Szoftver technológia",
+                "idopont": {
+                    "nap": "Hétfő",
+                    "tol": "10:00",
+                    "ig": "12:00"
+                },
+                "helyszin": "Info/101",
+                "oktato": "Dr. Tompa Tamás",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Fizika",
+                "idopont": {
+                    "nap": "Hétfő",
+                    "tol": "12:00",
+                    "ig": "14:00"
+                },
+                "helyszin": "XXX. e. a.",
+                "oktato": "Dr. Pszota Gábor",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Webtechnológia alapjai",
+                "idopont": {
+                    "nap": "Hétfő",
+                    "tol": "14:00",
+                    "ig": "16:00"
+                },
+                "helyszin": "Info/103",
+                "oktato": "Dr. Bednarik László",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Java",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "10:00",
+                    "ig": "12:00"
+                },
+                "helyszin": "Info/101",
+                "oktato": "Szűcs Miklós",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "OS",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "12:00",
+                    "ig": "14:00"
+                },
+                "helyszin": "XXXII. e. a.",
+                "oktato": "Dr. Baksa Attila",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Fizika",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "14:00",
+                    "ig": "16:00"
+                },
+                "helyszin": "A1/301",
+                "oktato": "Dr. Paripás Béla",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Szoftver technológia",
+                "idopont": {
+                    "nap": "Szerda",
+                    "tol": "08:00",
+                    "ig": "09:00"
+                },
+                "helyszin": "XXX. e. a.",
+                "oktato": "Dr. Tompa Tamás",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "OS",
+                "idopont": {
+                    "nap": "Szerda",
+                    "tol": "11:00",
+                    "ig": "13:00"
+                },
+                "helyszin": "Info/101",
+                "oktato": "Dr. Smid László",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Optimalizálás",
+                "idopont": {
+                    "nap": "Szerda",
+                    "tol": "14:00",
+                    "ig": "16:00"
+                },
+                "helyszin": "XXXIII. e. a.",
+                "oktato": "Kőrei Attila",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Optimalizálás",
+                "idopont": {
+                    "nap": "Szerda",
+                    "tol": "16:00",
+                    "ig": "18:00"
+                },
+                "helyszin": "XXXIII. e. a.",
+                "oktato": "Kőrei Attila",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Német",
+                "idopont": {
+                    "nap": "Csütörtök",
+                    "tol": "08:00",
+                    "ig": "10:00"
+                },
+                "helyszin": "A1/211",
+                "oktato": "Dr. Sörés Marianna",
+                "szak": "MI"
+            },
+            {
+                "kurzusnev": "Java",
+                "idopont": {
+                    "nap": "Csütörtök",
+                    "tol": "10:00",
+                    "ig": "12:00"
+                },
+                "helyszin": "Inf/101",
+                "oktato": "Csépányi Fürjes László",
+                "szak": "MI"
+            }
+        ]
+    },
+    "cim" :{
+        "street" : "Egyetemváros",
+        "city":"Miskolc",
+        "code":"1021"
+    },
+    "phone number": [
+        {
+            "type":"Vezetékes",
+            "number":"3456 645 234"
+        },
+        {
+            "type" : "Mobil",
+            "number": "765 456 324"
+        }
+    ]
+}

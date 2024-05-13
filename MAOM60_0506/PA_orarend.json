@@ -1,0 +1,340 @@
+[
+    {
+        "kurzusnev": "Webtechnológia alapjai",
+        "oktato": " Dr. Agárdi Antia",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Hétfő",
+            "tol": "08:00",
+            "ig": "10:00"
+        },
+        "helyszin": "X. e. a.",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "1234 123 654"
+            },
+            {
+                "type": "Mobil",
+                "number": "123 769 175"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Szoftver technológia",
+        "oktato": "Dr. Tompa Tamás",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Hétfő",
+            "tol": "10:00",
+            "ig": "12:00"
+        },
+        "helyszin": "Info/101",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "6543 654 835"
+            },
+            {
+                "type": "Mobil",
+                "number": "234 546 543"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Fizika",
+        "oktato": "Dr. Pszota Gábor",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Hétfő",
+            "tol": "12:00",
+            "ig": "14:00"
+        },
+        "helyszin": "XXX. e. a.",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "2345 654 234"
+            },
+            {
+                "type": "Mobil",
+                "number": "536 674 236"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Webtechnológia alapjai",
+        "oktato": "Dr. Bednarik László",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Hétfő",
+            "tol": "14:00",
+            "ig": "16:00"
+        },
+        "helyszin": "Info/103",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "6543 654 654"
+            },
+            {
+                "type": "Mobil",
+                "number": "754 652 346"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Java",
+        "oktato": "Szűcs Miklós",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Kedd",
+            "tol": "10:00",
+            "ig": "12:00"
+        },
+        "helyszin": "Info/101",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "7653 534 234"
+            },
+            {
+                "type": "Mobil",
+                "number": "432 567 862"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "OS",
+        "oktato": "Dr. Baksa Attila",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Kedd",
+            "tol": "12:00",
+            "ig": "14:00"
+        },
+        "helyszin": "XXXII. e. a.",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "5678 456 275"
+            },
+            {
+                "type": "Mobil",
+                "number": "045 643 234"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Fizika",
+        "oktato": "Dr. Paripás Béla",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Kedd",
+            "tol": "14:00",
+            "ig": "16:00"
+        },
+        "helyszin": "A1/301",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "0234 654 754"
+            },
+            {
+                "type": "Mobil",
+                "number": "076 457 832"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Szoftver technológia",
+        "oktato": "Dr. Tompa Tamás",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Szerda",
+            "tol": "08:00",
+            "ig": "09:00"
+        },
+        "helyszin": "XXX. e. a.",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "6543 654 835"
+            },
+            {
+                "type": "Mobil",
+                "number": "234 546 543"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "OS",
+        "oktato": "Dr. Smid László",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Szerda",
+            "tol": "11:00",
+            "ig": "13:00"
+        },
+        "helyszin": "Info/101",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "5865 324 964"
+            },
+            {
+                "type": "Mobil",
+                "number": "056 753 543"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Optimalizálás",
+        "oktato": "Kőrei Attila",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Szerda",
+            "tol": "14:00",
+            "ig": "16:00"
+        },
+        "helyszin": "XXXIII. e. a.",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "1234 345 567"
+            },
+            {
+                "type": "Mobil",
+                "number": "867 654 534"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Optimalizálás",
+        "oktato": "Kőrei Attila",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Szerda",
+            "tol": "16:00",
+            "ig": "18:00"
+        },
+        "helyszin": "XXXIII. e. a.",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "1234 345 567"
+            },
+            {
+                "type": "Mobil",
+                "number": "867 654 534"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Német",
+        "oktato": "Dr. Sörés Marianna",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Csütörtök",
+            "tol": "08:00",
+            "ig": "10:00"
+        },
+        "helyszin": "A1/211",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "6543 543 675"
+            },
+            {
+                "type": "Mobil",
+                "number": "123 756 345"
+            }
+        ]
+    },
+    {
+        "kurzusnev": "Java",
+        "oktato": "Csépányi Fürjes László",
+        "szak": "MI",
+        "idopont": {
+            "nap": "Csütörtök",
+            "tol": "10:00",
+            "ig": "12:00"
+        },
+        "helyszin": "Inf/101",
+        "cim": {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": "1021"
+        },
+        "phone number": [
+            {
+                "type": "Vezetékes",
+                "number": "1234 543 765"
+            },
+            {
+                "type": "Mobil",
+                "number": "234 634 001"
+            }
+        ]
+    }
+    ]

@@ -1,0 +1,26 @@
+{
+    "kurzusnev": "Szoftver technológia",
+    "oktato": "Dr. Tompa Tamás",
+    "szak": "MI",
+    "idopont": {
+        "nap": "Hétfő",
+        "tol": "10:00",
+        "ig": "12:00"
+    },
+    "helyszin": "Info/101",
+    "cim": {
+        "street": "Egyetemváros",
+        "city": "Miskolc",
+        "code": "1021"
+    },
+    "phone number": [
+        {
+            "type": "Vezetékes",
+            "number": "6543 654 835"
+        },
+        {
+            "type": "Mobil",
+            "number": "234 546 543"
+        }
+    ]
+}
