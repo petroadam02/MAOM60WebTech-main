@@ -1,4 +1,4 @@
-document.getElementById("contactForm").addEventListener("submit", function(event) {
+document.getElementById("contactForm").addEventListener("submit", function (event) {
     event.preventDefault(); // Az alapértelmezett űrlap küldési művelet megakadályozása
 
     // Az űrlap mezőinek értékeinek ellenőrzése
@@ -8,11 +8,10 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     var message = document.getElementById("message").value;
 
     if (name && email && subject && message) {
-        // Ha minden mező ki van töltve, akkor alertet jelenítünk meg
+
         alert("Az üzenet elküldve!");
 
     } else {
-        // Ha bármelyik mező nincs kitöltve, akkor figyelmeztető üzenetet jelenítünk meg
         alert("Kérlek, töltsd ki az összes mezőt!");
     }
 });
